@@ -1,0 +1,26 @@
+body {
+    background-color: #D8D4E5;
+}
+
+header {
+    background-image: url('../images/patron.jpeg');
+    background-repeat: repeat;
+}
+
+footer {
+    background-image: url('../images/patron.jpeg');
+    background-repeat: repeat;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+footer p {
+    margin: 0;
+}
