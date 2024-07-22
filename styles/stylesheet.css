@@ -41,3 +41,41 @@ footer p {
 .btn i {
     font-size: 1.5rem;
 }
+
+.icon-color i {
+    color: #19243A; /* Color azul oscuro por defecto */
+}
+
+.icon-color:hover .fa-whatsapp {
+    color: #25D366; /* Color original de WhatsApp */
+}
+
+.icon-color:hover .fa-envelope {
+    color: #007bff; /* Color original de Email */
+}
+
+.icon-color:hover .fa-instagram {
+    color: #C13584; /* Color original de Instagram */
+}
+
+.icon-color:hover .fa-info-circle {
+    color: #343a40; /* Color original de Info */
+}
+
+/* Estilo del botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    font-size: 25px;
+}
+
+.whatsapp-float .my-float {
+    margin-top: 2px;
+}
