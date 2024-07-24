@@ -13,7 +13,7 @@ footer {
 }
 
 .navbar-brand img {
-    max-height: 40px;
+    max-height: 100px;
 }
 
 .navbar-nav .nav-link {
@@ -39,7 +39,7 @@ footer p {
 }
 
 .btn i {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .icon-color i {
@@ -58,6 +58,9 @@ footer p {
     color: #C13584; /* Color original de Instagram */
 }
 
+.icon-color:hover .fa-facebook {
+    color: #2e3abf; /* Color original de Instagram */
+}
 .icon-color:hover .fa-info-circle {
     color: #343a40; /* Color original de Info */
 }
