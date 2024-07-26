@@ -34,10 +34,13 @@ footer {
     object-fit: cover;
 }
 
-footer p {
-    margin: 0;
+/* Mantener el footer en la parte inferior */
+footer {
+    background-image: url('../images/patron.jpeg');
+    background-repeat: repeat;
+    text-align: center;
+    padding: 1rem 0;
 }
-
 .btn i {
     font-size: 2.5rem;
 }
@@ -61,6 +64,7 @@ footer p {
 .icon-color:hover .fa-facebook {
     color: #2e3abf; /* Color original de Instagram */
 }
+
 .icon-color:hover .fa-info-circle {
     color: #343a40; /* Color original de Info */
 }
@@ -78,7 +82,41 @@ footer p {
     z-index: 100;
     font-size: 25px;
 }
+.btn{
+    text-decoration: none;
+    color: #F8F9FA;
 
+}
+.btn:hover{
+    text-decoration: none;
+    color: #F8F9FA;
+}
 .whatsapp-float .my-float {
     margin-top: 2px;
+}
+
+/* Estilos personalizados para las cards */
+.card {
+    border: none;
+    border-radius: 20px;
+    background-color: #1B2337;
+}
+
+.card .card-body {
+    background-color: #F8F9FA;
+    border-radius: 10px;
+}
+
+.card .card-title {
+    color: #F8F9FA;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #1B2337;
+}
+.card-header:hover{
+    background-color: #36405a;
+}
+.card ul {
+    padding-left: 0;
+    list-style-type: none;
 }
